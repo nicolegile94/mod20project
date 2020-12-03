@@ -12,9 +12,7 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row">
                     <li>
-                        <a href="#about">
-                            About me
-                        </a>
+                            About Nicole
                     </li>
                     <li>
                         <span>Contact</span>

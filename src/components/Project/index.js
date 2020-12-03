@@ -10,8 +10,8 @@ function Project({project}) {
     return (
         <div>
             Name: {name}
-            <a href={deployed}> Deployed Application </a>
-            <a href={github}> GitHub </a>
+            <a href={deployed} rel="noreferrer" target="_blank"> Deployed Application </a>
+            <a href={github} rel="noreferrer" target="_blank"> GitHub </a>
         </div>
     )
 }

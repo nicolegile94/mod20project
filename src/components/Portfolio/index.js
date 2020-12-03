@@ -17,6 +17,8 @@ function Portfolio() {
     ])
     
     return (
+      <section>
+        <h1 id="portfolio">Portfolio</h1>
         <div>
           <div className="flex-row">
             {projects.map((project, idx) => (
@@ -27,6 +29,7 @@ function Portfolio() {
             ))}
           </div>
         </div>
+      </section>
       );
     };
 
