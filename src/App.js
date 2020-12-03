@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import Category from './components/Category';
+
 
 function App() {
   const [categories] = useState([
@@ -37,10 +35,7 @@ function App() {
           currentCategory={currentCategory}
         ></Nav>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <Contact></Contact>
+       <Category currentCategory={currentCategory}></Category>
       </main>
     </div>
   );
