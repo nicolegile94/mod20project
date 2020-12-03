@@ -17,7 +17,7 @@ function Portfolio() {
     ])
     
     return (
-      <section>
+      <section class="content">
         <h1 id="portfolio">Portfolio</h1>
         <div>
           <div className="flex-row">

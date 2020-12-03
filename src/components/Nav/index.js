@@ -13,10 +13,11 @@ function Nav(props) {
     }, [currentCategory]);
 
     return (
+        <div>
             <nav>
-                <ul className="flex-row">
+                <ul className="topnav">
                     {categories.map((Category) => (
-                        <li key={Category.name}>
+                        <li key={Category.name} class="navlink">
                             <span
                                 onClick={() => setCurrentCategory(Category)}
                             >
@@ -26,6 +27,7 @@ function Nav(props) {
                     ))}
                 </ul>
             </nav>
+        </div>
 )};
 
 export default Nav;
