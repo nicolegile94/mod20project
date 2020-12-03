@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const categories = [
@@ -35,6 +36,7 @@ function App() {
         ></Nav>
       <main>
         <About></About>
+        <Portfolio></Portfolio>
       </main>
     </div>
   );
