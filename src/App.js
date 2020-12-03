@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 function App() {
   const [categories] = useState([
     {
-     name: "About Me",
+     name: "About Nicole",
      description: "Information about Nicole"
     },
     {
