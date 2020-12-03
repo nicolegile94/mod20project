@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
-  const categories = [
+  const [categories] = useState([
     {
      name: "About Me",
      description: "Information about Nicole"
@@ -21,7 +22,7 @@ function App() {
         name: "Resume",
         description: "Resume for Nicole"
     }
- ];
+ ]);
 
  const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
@@ -37,6 +38,7 @@ function App() {
       <main>
         <About></About>
         <Portfolio></Portfolio>
+        <Resume></Resume>
       </main>
     </div>
   );
