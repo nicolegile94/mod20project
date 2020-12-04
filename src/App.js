@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import Category from './components/Category';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <main>
        <Category currentCategory={currentCategory}></Category>
       </main>
+      <Footer />
     </div>
   );
 }
