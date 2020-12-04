@@ -14,12 +14,12 @@ function App() {
         description: "Sample of Nicole's work"
     },
     {
-        name: "Contact",
-        description: "How to reach Nicole"
-    },
-    {
         name: "Resume",
         description: "Resume for Nicole"
+    },
+    {
+      name: "Contact",
+      description: "How to reach Nicole"
     }
  ]);
 

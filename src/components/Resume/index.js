@@ -5,8 +5,7 @@ function Resume() {
     return (
         <section class="content">
             <div>
-                <h1>Resume</h1>
-                <p>Nicole's Resume: <a href="www.google.com">Download Now</a></p>
+                <h2>Nicole's Resume: <a href="https://www.linkedin.com/in/nicolegile94/">Download Now</a></h2>
                 <h3>Skills: </h3>
                     <ul>
                         <li>Web Testing</li>

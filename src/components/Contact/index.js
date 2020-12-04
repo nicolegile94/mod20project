@@ -4,21 +4,20 @@ function Contact() {
     return (
         <section class="content">
         <div>
-            <h1>Contact</h1>
             <form>
-                <div>
-                    <label>Name: </label>
-                    <input type="text" name="name"/>
+                <div class="form">
+                    <label>Name: </label><br></br>
+                    <input type="text" name="name" required/>
                 </div>
-                <div>
-                    <label>Email: </label>
-                    <input type="email" name="email" />
+                <div class="form">
+                    <label>Email: </label><br></br>
+                    <input type="email" name="email" required/>
                 </div>
-                <div>
-                    <label>Message: </label>
-                    <textarea name="message"/>
+                <div class="form">
+                    <label>Message: </label><br></br>
+                    <textarea name="message" required/>
                 </div>
-                <button type="submit">Submit</button>
+                <button class="button" type="submit">Submit</button>
             </form>
         </div>
     </section>   
